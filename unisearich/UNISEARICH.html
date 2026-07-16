@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UNISEARICH — Seaweed Extract 35% Biostimulant</title>
+<style>
+  :root{
+    --deep:#0B2E36;
+    --teal:#1C7C74;
+    --aqua:#3FB6A8;
+    --sand:#F2EFE4;
+    --coral:#E4693F;
+    --ink:#0B2E36;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:'Avenir Next','Century Gothic',-apple-system,sans-serif;
+    background:var(--sand);
+    color:var(--ink);
+    line-height:1.6;
+  }
+  header{
+    background:radial-gradient(ellipse at top left, #12464F 0%, var(--deep) 60%);
+    color:var(--sand);
+    padding:70px 24px 110px;
+    position:relative;
+    overflow:hidden;
+  }
+  .wave{
+    position:absolute;
+    bottom:-2px;left:0;width:100%;
+    line-height:0;
+  }
+  .eyebrow{
+    text-transform:uppercase;
+    letter-spacing:0.25em;
+    font-size:11px;
+    color:var(--aqua);
+    margin-bottom:20px;
+    font-weight:600;
+  }
+  h1{
+    font-size:clamp(38px,7vw,60px);
+    font-weight:700;
+    letter-spacing:-0.02em;
+    max-width:700px;
+  }
+  h1 span{color:var(--aqua);}
+  .sub{
+    max-width:540px;
+    margin-top:18px;
+    font-size:17px;
+    color:#C7DEDA;
+  }
+  main{max-width:980px;margin:0 auto;padding:0 24px;}
+  .stat-band{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:1px;
+    background:#D9D3BF;
+    margin-top:-64px;
+    position:relative;z-index:2;
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow:0 24px 48px -24px rgba(11,46,54,0.35);
+  }
+  .stat{background:#fff;padding:30px 20px;text-align:center;}
+  .stat .num{font-size:32px;color:var(--teal);font-weight:800;}
+  .stat .lbl{font-size:11px;text-transform:uppercase;letter-spacing:0.09em;color:#6b7d7a;margin-top:6px;}
+  section{padding:70px 0;}
+  .section-head{display:flex;align-items:baseline;gap:14px;margin-bottom:30px;}
+  .section-head .idx{
+    background:var(--teal);color:#fff;font-size:12px;
+    padding:5px 12px;border-radius:20px;letter-spacing:0.06em;
+  }
+  .section-head h2{font-size:26px;font-weight:700;color:var(--deep);}
+  .comp-table{width:100%;border-collapse:collapse;}
+  .comp-table tr{border-bottom:1px solid #E1DCC9;}
+  .comp-table td{padding:16px 8px;font-size:16px;}
+  .comp-table td:last-child{text-align:right;font-weight:700;color:var(--teal);white-space:nowrap;}
+  .comp-table tr.total td{font-weight:800;border-top:2px solid var(--deep);border-bottom:none;color:var(--deep);}
+  .app-card{
+    background:linear-gradient(135deg,var(--teal),#12595A);
+    color:#fff;
+    border-radius:16px;
+    padding:36px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:24px;
+  }
+  .app-card .dose{font-size:34px;font-weight:800;}
+  .app-card .dose-lbl{font-size:13px;opacity:0.85;margin-top:4px;}
+  .crop-pill{
+    display:inline-flex;align-items:center;gap:10px;
+    background:var(--coral);color:#fff;
+    padding:10px 22px;border-radius:30px;
+    font-weight:700;font-size:16px;margin-top:16px;
+  }
+  .reg-box{
+    background:#fff;border:2px solid var(--teal);
+    border-radius:14px;padding:30px;
+    display:flex;justify-content:space-between;align-items:center;
+    flex-wrap:wrap;gap:16px;
+  }
+  .reg-box .g-no{font-size:22px;color:var(--deep);font-weight:800;}
+  .reg-box .g-sub{font-size:13px;color:#607975;margin-top:4px;}
+  footer{
+    background:var(--deep);color:#8FB6B0;
+    text-align:center;padding:36px 24px;font-size:13px;margin-top:30px;
+  }
+  footer strong{color:var(--aqua);}
+  @media(max-width:640px){
+    .stat-band{grid-template-columns:1fr;}
+    .app-card{flex-direction:column;align-items:flex-start;}
+    .reg-box{flex-direction:column;align-items:flex-start;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Registered Plant Biostimulant · Government of India</div>
+  <h1>UNI<span>SEA</span>RICH</h1>
+  <p class="sub">Cold-processed extract of <em>Sargassum wightii</em> seaweed — a foliar biostimulant carrying the natural growth-signalling compounds of brown algae straight to the leaf surface.</p>
+</header>
+
+<main>
+  <div class="stat-band">
+    <div class="stat"><div class="num">35%</div><div class="lbl">Seaweed Extract</div></div>
+    <div class="stat"><div class="num">3×</div><div class="lbl">Foliar Sprays</div></div>
+    <div class="stat"><div class="num">2025</div><div class="lbl">Gazette Year</div></div>
+  </div>
+
+  <section>
+    <div class="section-head"><span class="idx">Composition</span><h2>What's inside</h2></div>
+    <table class="comp-table">
+      <tr><td>Seaweed (<em>Sargassum wightii</em>) extract</td><td>35% w/w (min.)</td></tr>
+      <tr><td>Bentonite (carrier)</td><td>QS w/w</td></tr>
+      <tr class="total"><td>Total</td><td>100%</td></tr>
+    </table>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="section-head"><span class="idx">Application</span><h2>Crop &amp; dosage</h2></div>
+    <div class="app-card">
+      <div>
+        <div class="dose">200 g / ha</div>
+        <div class="dose-lbl">Per foliar application</div>
+      </div>
+      <div style="font-size:15px;line-height:1.5;">
+        Three foliar sprays across the crop cycle for consistent uptake.
+      </div>
+    </div>
+    <span class="crop-pill">🌶️ Chilli</span>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="section-head"><span class="idx">Compliance</span><h2>Regulatory notification</h2></div>
+    <div class="reg-box">
+      <div>
+        <div class="g-no">S.O. 3742(E)</div>
+        <div class="g-sub">Gazette of India · Dated 13 August 2025</div>
+      </div>
+      <div style="text-align:right;">
+        <div style="font-size:15px;color:var(--deep);">Category (21)</div>
+        <div class="g-sub">Seaweed (Sargassum wightii) Extract 35% Powder</div>
+      </div>
+    </div>
+    <div class="reg-box" style="margin-top:16px;">
+      <div>
+        <div class="g-sub">Biostimulant Licence Number</div>
+        <div class="g-no">LCBWD0520260042</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <strong>UNISEARICH</strong> (Powder) — Seaweed (Sargassum wightii) Extract 35% Powder<br>
+  Registered under the Fertilizer (Inorganic, Organic or Mixed) (Control) Order, as notified vide S.O. 3742(E), dated 13-08-2025.<br>
+  Biostimulant Licence No — LCBWD0520260042
+</footer>
+
+</body>
+</html>
