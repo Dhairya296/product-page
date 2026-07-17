@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PROMINO S.L. — Protein Hydrolysate 20% Liquid Biostimulant</title>
+<style>
+  :root{
+    --wheat:#C98A2C;
+    --wheat-dark:#8A5A18;
+    --soil:#2B2118;
+    --cream:#FBF4E6;
+    --leaf:#5C7A3D;
+    --ink:#241C13;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:'Iowan Old Style','Georgia',serif;
+    background:var(--cream);
+    color:var(--ink);
+    line-height:1.6;
+  }
+  header{
+    background:linear-gradient(150deg,var(--soil) 0%,#3d2f1f 100%);
+    color:var(--cream);
+    padding:64px 24px 96px;
+    position:relative;
+    overflow:hidden;
+  }
+  header::after{
+    content:"";
+    position:absolute;
+    right:-60px; top:-60px;
+    width:280px; height:280px;
+    border-radius:50%;
+    background:radial-gradient(circle,rgba(201,138,44,0.35),transparent 70%);
+  }
+  .eyebrow{
+    text-transform:uppercase;
+    letter-spacing:0.22em;
+    font-size:12px;
+    color:var(--wheat);
+    margin-bottom:18px;
+  }
+  h1{
+    font-size:clamp(38px,7vw,64px);
+    font-weight:400;
+    letter-spacing:-0.01em;
+    max-width:760px;
+    text-transform:uppercase;
+  }
+  h1 em{font-style:italic;color:var(--wheat);}
+  .sub{
+    max-width:560px;
+    margin-top:20px;
+    font-size:18px;
+    color:#E8DCC5;
+  }
+  .grain-strip{display:flex;height:6px;width:100%;}
+  .grain-strip div{flex:1;}
+  main{max-width:1000px;margin:0 auto;padding:0 24px;}
+  .stat-band{
+    display:grid;grid-template-columns:repeat(4,1fr);gap:1px;
+    background:var(--wheat-dark);margin-top:-48px;position:relative;z-index:2;
+    border-radius:6px;overflow:hidden;
+    box-shadow:0 20px 40px -20px rgba(43,33,24,0.4);
+  }
+  .stat{background:var(--cream);padding:26px 18px;text-align:center;}
+  .stat .num{font-size:30px;color:var(--wheat-dark);font-weight:600;}
+  .stat .lbl{font-size:12px;text-transform:uppercase;letter-spacing:0.08em;color:#6b5a44;margin-top:6px;}
+  section{padding:72px 0;}
+  .section-head{
+    display:flex;align-items:baseline;gap:16px;margin-bottom:32px;
+    border-bottom:2px solid var(--wheat-dark);padding-bottom:14px;
+  }
+  .section-head .idx{font-size:13px;color:var(--wheat-dark);letter-spacing:0.1em;}
+  .section-head h2{font-size:28px;font-weight:400;}
+  .comp-table{width:100%;border-collapse:collapse;}
+  .comp-table tr{border-bottom:1px solid #E0D2B4;}
+  .comp-table td{padding:16px 8px;font-size:16px;}
+  .comp-table td:last-child{text-align:right;font-weight:600;color:var(--wheat-dark);white-space:nowrap;}
+  .comp-table tr.total td{font-weight:700;border-top:2px solid var(--soil);border-bottom:none;color:var(--soil);}
+  .two-col{display:grid;grid-template-columns:1fr 1fr;gap:32px;}
+  .card{background:#fff;border:1px solid #E0D2B4;border-radius:10px;padding:28px;}
+  .card h3{font-size:14px;text-transform:uppercase;letter-spacing:0.1em;color:var(--leaf);margin-bottom:10px;}
+  .card p{font-size:16px;}
+  .crop-tags{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap;}
+  .crop-tag{background:var(--leaf);color:#fff;padding:6px 16px;border-radius:20px;font-size:14px;}
+  .reg-box{
+    background:var(--soil);color:var(--cream);border-radius:10px;padding:32px;
+    display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;
+  }
+  .reg-box .g-no{font-size:22px;color:var(--wheat);}
+  .reg-box .g-sub{font-size:13px;color:#cbb894;margin-top:4px;}
+  footer{background:var(--soil);color:#cbb894;text-align:center;padding:40px 24px;font-size:13px;margin-top:40px;}
+  footer strong{color:var(--wheat);text-transform:uppercase;}
+  @media(max-width:640px){
+    .stat-band{grid-template-columns:repeat(2,1fr);}
+    .two-col{grid-template-columns:1fr;}
+    .reg-box{flex-direction:column;align-items:flex-start;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Registered Plant Biostimulant · Government of India</div>
+  <h1>PROMINO <em>S.L.</em></h1>
+  <p class="sub">A fast-acting maize-derived protein hydrolysate in liquid form — broken down by alkaline protease and controlled acid hydrolysis into a spray-ready amino acid solution.</p>
+</header>
+<div class="grain-strip">
+  <div style="background:#C98A2C"></div><div style="background:#8A5A18"></div><div style="background:#5C7A3D"></div><div style="background:#2B2118"></div>
+</div>
+
+<main>
+  <div class="stat-band">
+    <div class="stat"><div class="num">20%</div><div class="lbl">Protein Hydrolysate</div></div>
+    <div class="stat"><div class="num">Liquid</div><div class="lbl">Formulation</div></div>
+    <div class="stat"><div class="num">2</div><div class="lbl">Foliar Sprays</div></div>
+    <div class="stat"><div class="num">2025</div><div class="lbl">Gazette Year</div></div>
+  </div>
+
+  <section>
+    <div class="section-head"><span class="idx">Composition</span><h2>What's inside</h2></div>
+    <table class="comp-table">
+      <tr><td>Protein hydrolysate derived from seeds of <em>Zea mays</em> (maize) through hydrolysis using alkaline protease &amp; hydrochloric acid</td><td>20% w/w (min.)</td></tr>
+      <tr><td>Water (carrier)</td><td>QS w/w</td></tr>
+      <tr class="total"><td>Total</td><td>100%</td></tr>
+    </table>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="section-head"><span class="idx">Application</span><h2>Crop &amp; dosage</h2></div>
+    <div class="two-col">
+      <div class="card">
+        <h3>Foliar application</h3>
+        <p><strong>1500 ml per hectare</strong>, applied as a foliar spray.</p>
+      </div>
+      <div class="card">
+        <h3>Schedule</h3>
+        <p><strong>Two applications</strong> across the crop cycle for sustained amino acid supply.</p>
+      </div>
+    </div>
+    <div class="crop-tags">
+      <span class="crop-tag">Chickpea</span>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="section-head"><span class="idx">Compliance</span><h2>Regulatory notification</h2></div>
+    <div class="reg-box">
+      <div>
+        <div class="g-no">S.O. 3742(E)</div>
+        <div class="g-sub">Gazette of India · Dated 13 August 2025</div>
+      </div>
+      <div style="text-align:right;">
+        <div style="font-size:15px;">Category (28)</div>
+        <div class="g-sub">Protein Hydrolysate 20% (Plant Source) Liquid</div>
+      </div>
+    </div>
+    <div class="reg-box" style="margin-top:16px;">
+      <div>
+        <div class="g-sub">Biostimulant Licence Number</div>
+        <div class="g-no">LCBWD0520260042</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <strong>PROMINO S.L.</strong> — Protein Hydrolysate 20% (Plant Source) Liquid<br>
+  Registered under the Fertilizer (Inorganic, Organic or Mixed) (Control) Order, as notified vide S.O. 3742(E), dated 13-08-2025.<br>
+  Biostimulant Licence No — LCBWD0520260042
+</footer>
+
+</body>
+</html>
